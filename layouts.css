@@ -1,0 +1,314 @@
+body {
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 20px;
+    margin-top: 17px;
+}
+
+.box {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.top-navigation {
+    flex: 1;
+}
+
+.home-feature {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.home-feature__image {
+    flex: 1;
+}
+
+.home-subfeature {
+    display: flex;
+    gap: 10px;
+}
+
+.subfeature-item {
+    flex: 1;
+}
+
+.subfeature-images {
+    border-radius: 5px;
+
+}
+
+.home-top {
+    margin-bottom: 40px;
+}
+
+.container-story {
+    margin-bottom: 50px;
+}
+
+.container-story__images {
+    display: flex;
+    gap: 15px;
+}
+
+.story {
+    flex: 1
+}
+
+.story-mobile {
+    flex: 1;
+}
+
+.story-mobile-medium {
+    flex: 1
+}
+
+.container-articles {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 50px;
+    
+}
+
+.top-navigation {
+    display: flex;
+    gap: 15px;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.container-interview {
+    margin-bottom: 50px;
+}
+
+.container-interview__images {
+    display: flex;
+    gap: 15px;
+}
+
+.interview-images-big {
+    flex: 1;
+}
+
+.interview-images-small-container {
+    flex: 1;
+}
+
+.interview-images-small-row1 {
+    display: flex;
+    gap: 15px;
+}
+
+.interview-images-small-row2 {
+    display: flex;
+    gap: 15px;
+}
+
+.interview-images-small {
+    flex: 1;
+}
+
+.container-lifestyle {
+    margin-bottom: 50px;
+}
+
+.lifestyle-inline-items {
+    display: flex;
+    gap: 10px
+}
+
+.lifestyle-items {
+    flex: 1
+}
+
+.lifestyle-items-3 {
+    flex: 1
+}
+
+.lifestyle-items-4 {
+    flex: 1
+}
+
+.comedy-inline-items {
+    display: flex;
+    gap: 10px;
+}
+
+.comedy-items-1 {
+    flex: 1;
+}
+
+.comedy-items-2 {
+    flex: 1;
+}
+
+.container-comedy {
+    margin-bottom: 50px;
+}
+
+.home-entertainment__videos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.home-entertainment__photos {
+    display: flex;
+    gap: 10px;
+}
+
+.home-entertainment-items {
+    flex: 1
+}
+
+.home-entertainment {
+    margin-bottom: 50px;
+}
+
+.container-footer {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.bottom-navigation {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.container-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-highlights {
+    display: none;
+}
+
+
+@media(min-width:1201px) {
+    section {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    #mobile-menu-container {
+        display: none
+    }
+}
+
+@media(max-width:1200px) {
+    section {
+        width: 100%-50px;
+    }
+
+    #mobile-menu-container {
+        display: none
+    }
+}
+
+@media(max-width: 960px) {
+
+    .top-navigation {
+        display: none;
+    }
+
+    #mobile-menu-container {
+        display: block;
+    }
+
+    .top-widget {
+        flex: 1
+    }
+
+    .home-feature {
+        display: none;
+    }
+
+    .home-subfeature {
+        display: none;
+    }
+
+    .mobile-highlights {
+        display: block;
+    }
+
+    .story {
+        display: none;
+    }
+
+    .articles-second-column {
+        display: none;
+    }
+
+    .container-interview__images {
+        display: block;
+    }
+
+    .lifestyle-items-4 {
+        display: none;
+    }
+
+    .home-entertainment__videos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .home-entertainment__photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media(max-width: 640px) {
+    .story-mobile-medium {
+        display: none;
+    }
+
+    .interview-images-small-container {
+        display: block;
+    }
+
+    .interview-images-small-row1 {
+        display: block;
+    }
+
+    .interview-images-small-row2 {
+        display: block;
+    }
+
+    .lifestyle-items-3 {
+        display: none;
+    }
+
+    .comedy-items-2 {
+        display: none;
+    }
+
+    .home-entertainment__videos {
+        display: block;
+    }
+
+    .home-entertainment__photos {
+        display: block;
+    }
+
+    .container-footer {
+        display: block;
+    }
+
+    .container-copyright {
+        display: block;
+    }
+}
