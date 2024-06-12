@@ -85,6 +85,7 @@ body {
     text-align: left;
 
 }
+/*interview*/
 
 .container-interview {
     margin-bottom: 50px;
@@ -111,11 +112,13 @@ body {
 .interview-images-small-row2 {
     display: flex;
     gap: 15px;
+    margin-top: 13px;
 }
 
 .interview-images-small {
     flex: 1;
 }
+/*end of interview*/
 
 .container-lifestyle {
     margin-bottom: 50px;
