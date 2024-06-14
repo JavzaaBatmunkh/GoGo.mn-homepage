@@ -179,13 +179,15 @@ body {
 
 .container-footer {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
 .bottom-navigation {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .container-copyright {
