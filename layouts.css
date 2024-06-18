@@ -119,7 +119,7 @@ body {
     flex: 1;
 }
 /*end of interview*/
-
+/* container lifestyle */
 .container-lifestyle {
     margin-bottom: 50px;
 }
@@ -140,6 +140,7 @@ body {
 .lifestyle-items-4 {
     flex: 1
 }
+/* end of container lifestyle */
 
 .comedy-inline-items {
     display: flex;
@@ -157,25 +158,33 @@ body {
 .container-comedy {
     margin-bottom: 50px;
 }
-
+/* home-entertainment */
 .home-entertainment__videos {
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 15px;
+    margin-bottom: 80px;
 }
 
 .home-entertainment__photos {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .home-entertainment-items {
     flex: 1
 }
 
+.home-entertainment-items-1 {
+    flex: 1
+}
+.home-entertainment-items-2 {
+    flex: 1
+}
+
 .home-entertainment {
     margin-bottom: 50px;
 }
+/* end-of-home-entertainment */
 
 .container-footer {
     display: flex;
