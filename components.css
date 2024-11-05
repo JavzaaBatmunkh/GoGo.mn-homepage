@@ -499,6 +499,7 @@
 }
 
 /*container interview*/
+
 .interview-images {
     width: 100%;
     height: 243px;
@@ -562,6 +563,7 @@
     display: flex;
     gap: 10px;
     margin-bottom: 23px;
+    color: white
 }
 
 .container-title-img {
@@ -820,9 +822,20 @@
 .navigation-img {
     width: 15px;
     height: 20px;
+   
 }
 
 .bottom-navigation-names {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+}
+
+.bottom-navigation{
+    margin-left: 30px
+}
+
+.container-footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: justify-between;
 }
